@@ -1,0 +1,11 @@
+[sql]
+; 数据库类型: mysql 或 mssql
+type = mysql
+host = 127.0.0.1
+port = 3306
+user = root
+passwd = your_password_here
+db = pachongbi2h6g43
+charset = utf8
+; 是否启用Hadoop/Hive（可选，不需要就设为no）
+hasHadoop=no

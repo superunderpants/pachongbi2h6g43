@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv*/
+venv37/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+media/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+templates/front/node_modules/
+templates/front/dist/
+templates/front/admin/node_modules/
+!templates/front/admin/dist/
+
+# Sensitive config - do NOT commit
+config.ini
+*.env
+
+# Hive / Big data
+spark-warehouse/
+metastore_db/
+
+# Spider generated files
+spider/cookies.txt
+spider/*.csv
+
+# Temporary files
+*.tmp
+*.bak
+nohup.out
